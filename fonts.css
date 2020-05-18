@@ -2,12 +2,12 @@
 	font-family: "GothamPro";
   src: url("../fonts/GothamPro.woff") format("woff"),
     url("../fonts/GothamPro.woff2") format("woff2"),
-    font-weight: 400;
+    font-weight: normal;
 }
 
 @font-face {
 	font-family: "GothamPro-Bold";
   src: url("../fonts/GothamPro-Bold.woff") format("woff"),
     url("../fonts/GothamPro-Bold.woff2") format("woff2"),
-    font-weight: 600;
+    font-weight: bold;
 }
