@@ -15,9 +15,6 @@
 				<img src="img/logo.png" alt="logo" class="header__logo-image">
 				</a>
 			</div>
-			<div class="header__menu-bar">
-				<img src="img/menu-bar.png" alt="menu" class="menu-bar">
-			</div>
 			<nav class="header__menu">
 				<a href="#" class="link">shop</a>
 				<a href="#" class="link">news</a>
@@ -25,7 +22,10 @@
 				<a href="#" class="link">legacy</a>
 				<a href="#" class="link">help</a>
 			</nav>
-			<div class="header__search"></div>
+			<div class="header__menu-bar">
+				<img src="img/menu-bar.png" alt="menu" class="menu-bar">
+			</div>
+			<div class="header__search">
 				<input type="text" name="" class="search-input">
 				<img src="img/search.png" alt="search" class="search-icon">
 			</div>
@@ -34,6 +34,8 @@
 			</div>
 			<div class="header__cart">
 				<a class="link">cart</a>
+				<div class="header__cart_counter">
+				</div>
 			</div>
 			<div class="header__language-block">
 				<a href="#" alt="change language" class="link">
@@ -50,66 +52,74 @@
 				</div>
 			</div>
 		</section>
-		<div class="catalog">
+		<section class="catalog">
 			<h2 class="catalog__title">featured product</h2>
 			<div class="catalog__items">
 				<div class="catalog__item">
 					<img src="img/1.png" alt="Atlas Black/Rasta Axion" class="catalog-item__image">
 					<p class="catalog-item__title">Atlas Black/Rasta Axion</p>
-					<p class="catalog-item__price">$89.00</p>
-					<div class="catalog-item__varities">
-						<div class="catalog-item__grey"></div>
-						<div class="catalog-item__black_active"></div>
-						<div class="catalog-item__red"></div>
-						<div class="catalog-item__orange"></div>
+					<div class="catalog-item__description">
+						<p class="catalog-item__price">$89.00</p>
+						<div class="catalog-item__varities">
+							<div class="catalog-item__grey"></div>
+							<div class="catalog-item__black active-item"></div>
+							<div class="catalog-item__red"></div>
+							<div class="catalog-item__orange"></div>
+						</div>
 					</div>
 				</div>	
 				<div class="divider"></div>
 				<div class="catalog__item">
 					<img src="img/2.png" alt="Camel/Chili Pepper Axion" class="catalog-item__image">
 					<p class="catalog-item__title">Camel/Chili Pepper Axion</p>
-					<p class="catalog-item__price">$74.00</p>
-					<div class="catalog-item__varities">
-						<div class="catalog-item__grey"></div>
-						<div class="catalog-item__brown_active"></div>
-						<div class="catalog-item__red"></div>
-						<div class="catalog-item__orange"></div>
+					<div class="catalog-item__description">
+						<p class="catalog-item__price">$74.00</p>
+						<div class="catalog-item__varities">
+							<div class="catalog-item__grey"></div>
+							<div class="catalog-item__brown active-item"></div>
+							<div class="catalog-item__red"></div>
+							<div class="catalog-item__orange"></div>
+						</div>
 					</div>
 				</div>	
 				<div class="divider"></div>
 				<div class="catalog__item">
 					<img src="img/3.png" alt="Mandel Smoke/Rust Axion" class="catalog-item__image">
 					<p class="catalog-item__title">Mandel Smoke/Rust Axion</p>
-					<p class="catalog-item__price">$69.00</p>
-					<div class="catalog-item__varities">
-						<div class="catalog-item__grey"></div>
-						<div class="catalog-item__cherry_active"></div>
-						<div class="catalog-item__blue"></div>
-						<div class="catalog-item__orange"></div>
+					<div class="catalog-item__description">
+						<p class="catalog-item__price">$69.00</p>
+						<div class="catalog-item__varities">
+							<div class="catalog-item__grey"></div>
+							<div class="catalog-item__cherry active-item"></div>
+							<div class="catalog-item__blue"></div>
+							<div class="catalog-item__orange"></div>
+						</div>
 					</div>
 				</div>	
 				<div class="divider"></div>
 				<div class="catalog__item">
 					<img src="img/4.png" alt="Cloud/Electric Blue Axion" class="catalog-item__image">
 					<p class="catalog-item__title">Cloud/Electric Blue Axion</p>
+					<div class="catalog-item__description">
 					<p class="catalog-item__price">$69.00</p>
-					<div class="catalog-item__varities">
-						<div class="catalog-item__grey"></div>
-						<div class="catalog-item__blue_active"></div>
-						<div class="catalog-item__red"></div>
-						<div class="catalog-item__orange"></div>
+						<div class="catalog-item__varities">
+							<div class="catalog-item__grey"></div>
+							<div class="catalog-item__blue active-item"></div>
+							<div class="catalog-item__red"></div>
+							<div class="catalog-item__orange"></div>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="video-content">
+		</section>
+		<section class="video-content">
 			<video src="#" type="#" class="video"></video>
 			<h3 class="video-content__h3">legendary footwear reborn</h3>
 			<p class="video-content__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			<a href="#" class="content__link">learn more</a>
 			<div class="arrow"></div>
-		</div>
-		<div class="stories-content">
+		</section>
+		<section class="stories-content">
 			<h4 class="stories-content__h4"></h4>
 			<div class="stories__item">
 				<img src="#" alt="Presents Justin Anagoa" class="stories-item__image">
@@ -135,8 +145,8 @@
 				<div class="arrow"></div>
 				<div class="date">15.05.2020</div>
 			</div>
-		</div>
-		<div class="gallery">
+		</section>
+		<section class="gallery">
 			<p class="gallery__title">#axionfootwear</p>
 			<img src="#" alt="gallery photo" class="gallery__photo">
 			<img src="#" alt="gallery photo" class="gallery__photo">
@@ -146,7 +156,7 @@
 			<img src="#" alt="gallery photo" class="gallery__photo">
 			<img src="#" alt="gallery photo" class="gallery__photo">
 			<img src="#" alt="gallery photo" class="gallery__photo">
-		</div>
+		</section>
 		<footer class="footer">
 			<div class="footer__top">
 				<div class="footer__column">
