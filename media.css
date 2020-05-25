@@ -251,7 +251,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
+  }
 
   .catalog-item__title {
     font-size: 15px;
@@ -490,9 +490,9 @@
   }
 
   .catalog__items {
-  	width: 100%;
-  	display: flex;
-  	justify-content: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 
   .catalog__item {
