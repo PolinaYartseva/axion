@@ -498,7 +498,7 @@
   .catalog__item {
     width: 281px;
     height: 248px;
-}
+  }
 
   .catalog__item:not(:last-child)::after {
     content: "";
