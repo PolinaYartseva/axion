@@ -197,7 +197,7 @@
 
 .catalog__item:not(:last-child)::after {
   content: "";
-  opacity: .2;
+  opacity: 0.2;
   background: #000;
   height: 101px;
   position: absolute;
@@ -309,7 +309,6 @@
   /* padding-left: 30px; */
   margin-bottom: 95px;
   justify-content: space-around;
-
 }
 
 .video-section__image {
