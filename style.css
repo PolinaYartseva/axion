@@ -131,7 +131,7 @@
 .top-content {
   background-image: url(img/header-img.png);
   display: block;
-  
+
   /* display: flex;
   justify-content: flex-start; */
   width: 100%;
@@ -160,7 +160,7 @@
 }
 
 .link__white {
-  color: #ffffff;
+  color: #fff;
   text-align: left;
 }
 
