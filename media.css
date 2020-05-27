@@ -246,12 +246,13 @@
     font-size: 20px;
     line-height: 25px;
     margin-bottom: 39px;
+    min-height: 200px;
   }
 
   .stories-item__description-extended {
     width: 100%;
     display: grid;
-    grid-template-columns: 1.5fr 0.5fr 1fr;
+    grid-template-columns: 0.7fr 0.5fr 1fr;
   }
 
   .stories-item__date {
@@ -281,10 +282,10 @@
   }
 
   .gallery__title {
-    font-size: 18px;
-    line-height: 17px;
-    color: #000;
-    opacity: 0.3;
+    font-size: 30px;
+    line-height: 29px;
+    color: #fff;
+    opacity: 1;
     text-align: right;
     text-transform: uppercase;
     font-weight: bold;

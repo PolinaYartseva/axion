@@ -308,9 +308,7 @@
   background-color: #000;
   display: flex;
   align-items: center;
-
-  /* padding-left: 30px; */
-  padding-bottom: 95px;
+  margin-bottom: 95px;
   justify-content: space-around;
 }
 
@@ -437,3 +435,20 @@
 .hidden-1024 {
   display: none;
 }
+
+.footer {
+  background-color: #000;
+  background-size: cover;
+  width: 100%;
+
+}
+
+/*.footer__content
+
+.footer__column
+
+.footer-column__title
+
+.footer-column__nav
+
+.footer-column__link*/
