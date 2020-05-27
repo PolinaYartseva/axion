@@ -160,7 +160,7 @@
 }
 
 .arrow {
-	padding-left: 7px;
+  padding-left: 7px;
 }
 
 /* catalog */
@@ -293,11 +293,11 @@
 }
 
 .gradient {
-	display: none;
+  display: none;
 }
 
 .gradient-reverse {
-	display: none;
+  display: none;
 }
 
 /* video-section */
@@ -315,14 +315,11 @@
 }
 
 .video-section__image {
-  /*background-image: url(img/video.png);*/
   display: block;
-
-  /* padding-left: 30px; */
 }
 
 .video-adaptive {
-	display: none;
+  display: none;
 }
 
 .video-section__content {
@@ -349,8 +346,8 @@
 /* stories-content */
 
 .stories-content { 
-	width: 100%;
-	padding-bottom: 90px;
+  width: 100%;
+  padding-bottom: 90px;
 }
 
 .stories-content__h4 {
@@ -363,42 +360,42 @@
 }
 
 .stories-items {
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .stories-items__item {
-	width: 277px;
+  width: 277px;
 }
 
 .stories-item__image {
-	display: block;
-	width: 100%;
-	margin-bottom: 30px;
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
 }
 
 .stories-item__title {
-	font-size: 18px;
-	line-height: 17px;
-	font-weight: bold;
-	margin-bottom: 8px;
+  font-size: 18px;
+  line-height: 17px;
+  font-weight: bold;
+  margin-bottom: 8px;
 }
 
 .stories-item__description {
-	font-size: 13px;
+  font-size: 13px;
   line-height: 16px;
   margin-bottom: 18px;
 }
 
 .stories-item__description-extended {
-	width: 100%;
-	display: grid;
+  width: 100%;
+  display: grid;
   grid-template-columns: 0.9fr 1fr 1fr;
 }
 
 .stories-item__date {
-	font-size: 12px;
+  font-size: 12px;
   line-height: 11px;
   font-weight: bold;
   color: #000;
@@ -410,11 +407,11 @@
 
 .gallery {
   width: 100%;
-	padding-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .gallery__title {
-	font-size: 18px;
+  font-size: 18px;
   line-height: 17px;
   color: #000;
   opacity: 0.3;
@@ -425,8 +422,8 @@
 }
 
 .gallery-content {
-	display: grid;
-	grid-template-columns: repeat(7, 1fr);
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
 }
 
 .gallery-content__item {
@@ -434,9 +431,9 @@
 }
 
 .gallery__photo {
-	width: 100%;
+  width: 100%;
 }
 
 .hidden-1024 {
-	display: none;
+  display: none;
 }
