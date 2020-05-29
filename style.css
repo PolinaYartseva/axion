@@ -145,6 +145,11 @@
   align-items: flex-start;
 }
 
+.top-content__block-link {
+	display: flex;
+	justify-content: flex-start;
+}
+
 .top-content__h1 {
   font-size: 30px;
   font-weight: bold;
@@ -152,11 +157,13 @@
   text-transform: uppercase;
   color: #fff;
   text-align: left;
-  padding-bottom: 6px;
+  padding-bottom: 14px;
 }
 
 .arrow {
   padding-left: 7px;
+  display: flex;
+  align-items: center;
 }
 
 /* catalog */
@@ -428,7 +435,6 @@
   display: none;
 }
 
-
 /* footer */
 
 .footer {
@@ -512,7 +518,7 @@
 }
 
 .socials__item {
-  display: block;
+  display: flex;
 }
 
 .social-icon {

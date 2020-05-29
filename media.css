@@ -64,7 +64,7 @@
   .top-content__h1 {
     font-size: 50px;
     line-height: 48px;
-    margin-bottom: 37px;
+    margin-bottom: 40px;
   }
 
   .hidden-768 {
@@ -131,12 +131,14 @@
   }
 
   .video-section {
-    height: 756px;
+    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     background: linear-gradient(2.6deg, #000 92.7%, #fff 93%);
+    padding-bottom: 110px;
+    padding-top: 100px;
     margin-bottom: 0;
   }
 
@@ -187,7 +189,7 @@
     color: #fff;
     margin-top: -5px;
     margin-bottom: 0;
-    padding-bottom: 138px;
+    padding-bottom: 130px;
   }
 
   .stories-content__h4 {
@@ -200,7 +202,6 @@
 
   .stories-items {
     width: 88%;
-    
     margin: 0 auto;
   }
 
@@ -218,21 +219,26 @@
   .stories-item__title {
     font-size: 25px;
     line-height: 24px;
-    font-weight: bold;
     margin-bottom: 9px;
   }
 
   .stories-item__description {
     font-size: 20px;
     line-height: 25px;
-    margin-bottom: 39px;
+    margin-bottom: 35px;
     min-height: 200px;
   }
 
   .stories-item__description-extended {
     width: 100%;
     display: grid;
-    grid-template-columns: 0.7fr 0.5fr 1fr;
+    grid-template-columns: 1.5fr 0.5fr 1fr;
+  }
+
+  .arrow {
+  	width: 70px;
+    display: flex;
+    align-items: center;
   }
 
   .stories-item__date {
@@ -247,9 +253,10 @@
   .gallery {
     display: block;
     height: 15%;
-    background: linear-gradient(2.6deg, #fff 70%, #000 71%);
-    margin-bottom: -5px;
+    background: linear-gradient(2.6deg, #fff 62.5%, #000 63%);
+    margin-top: -5px;
     width: 100%;
+    padding-bottom: 125px;
   }
 
   .gallery__title {
@@ -260,7 +267,7 @@
     text-align: right;
     text-transform: uppercase;
     font-weight: bold;
-    margin-bottom: 8px;
+    margin-bottom: 13px;
     margin-right: 43px;
   }
 
@@ -281,16 +288,12 @@
     width: 100%;
   }
 
-  .hidden-1024 {
-    display: block;
-  }
-
   .footer {
     width: 100%;
   }
 
   .footer__content {
-    max-width: 90%;
+    max-width: 88%;
     padding-top: 60px;
   }
 
@@ -299,19 +302,32 @@
     line-height: 11px;
   }
 
-  .copyright {
-    padding-top: 78px;
+  .footer-column__nav-link {
+  	max-width: 155px;
   }
 
   .footer__button {
     width: 143px;
     height: 26px;
-    margin-top: 18px;
+    margin-top: 5px;
     margin-bottom: 30px;
   }
 
   .social-icon {
-    width: 70%;
+    width: 65%;
+  }
+
+  .copyright {
+    padding-top: 70px;
+    padding-bottom: 40px;
+  }
+
+  .hidden-768 {
+  	display: none;
+  }
+
+  .hidden-1024 {
+    display: block;
   }
 }
 
@@ -382,6 +398,11 @@
     margin-bottom: 9px;
   }
 
+  .arrow {
+  	width: 46px;
+  	height: auto;
+  }
+
   .link {
     font-size: 12px;
     line-height: 11px;
@@ -390,9 +411,7 @@
 
   .catalog {
     width: 281px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
+    margin-bottom: 10;
   }
 
   .catalog__title {
@@ -403,7 +422,7 @@
 
   .catalog-item__description {
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
+    grid-template-columns: 1.5fr 0.75fr;
     padding-left: 11px;
   }
 
@@ -426,7 +445,7 @@
   .catalog-item__image {
     width: 165px;
     height: 163px;
-    margin-bottom: 13px;
+    margin-bottom: 15px;
     padding-left: 0;
     display: block;
     margin-left: auto;
@@ -455,13 +474,15 @@
   }
 
   .video-section {
-    height: 505px;
+    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: linear-gradient(2.6deg, #000 91%, #fff 92%);
+    background: linear-gradient(2.6deg, #000 85.5%, #fff 86%);
     margin-bottom: 0;
+    padding-bottom: 104px;
+    padding-top: 100px;
   }
 
   .video-section__image {
@@ -510,7 +531,7 @@
 
   .stories-content {
     width: 100%;
-    padding-bottom: 110px;
+    padding-bottom: 105px;
     background-color: #000;
     color: #fff;
     margin-top: -5px;
@@ -559,7 +580,7 @@
   .stories-item__description-extended {
     width: 100%;
     display: grid;
-    grid-template-columns: 1.5fr 0.5fr 1fr;
+    grid-template-columns: 0.7fr 0.5fr 1fr;
   }
 
   .hidden-1024 {
@@ -592,7 +613,7 @@
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
-    margin-bottom: 17px;
+    margin-bottom: 14px;
     margin-right: 0;
   }
 
@@ -623,7 +644,7 @@
 
   .footer__content {
     max-width: 75%;
-    padding-top: 40px;
+    padding-top: 38px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -632,13 +653,18 @@
 
   .footer__column {
     text-align: center;
-    margin-bottom: 52px;
+    margin-bottom: 45px;
+  }
+  
+  .footer__column-title {
+    font-size: 15px;
+    line-height: 14px;
   }
 
-  .footer__column-title,
   .footer-column__nav-link {
     font-size: 15px;
     line-height: 14px;
+    max-width: 167px;
   }
 
   .copyright {
@@ -655,8 +681,12 @@
     margin-left: auto;
   }
 
+  .socials {
+  	padding-right: 0;
+  }
+
   .social-icon {
-    width: 100%;
+    width: 70%;
   }
 
   .hidden-375 {
@@ -729,11 +759,6 @@
     font-size: 12px;
     line-height: 11px;
     color: #fff;
-  }
-
-  .hidden-768,
-  .hidden-375 {
-    display: none;
   }
 
   .catalog {
@@ -1000,6 +1025,7 @@
     width: 100%;
   }
 
+  .hidden-768,
   .hidden-375 {
     display: none;
   }
@@ -1075,6 +1101,11 @@
     color: #fff;
   }
 
+  .arrow {
+  	width: 40px;
+  	height: auto;
+  }
+
   .hidden-768,
   .hidden-375 {
     display: none;
@@ -1124,7 +1155,7 @@
   }
 
   .catalog-item__description {
-    grid-template-columns: 1.5fr 1fr;
+    grid-template-columns: 2fr 1fr;
     padding-left: 15px;
     padding-right: 0;
   }
@@ -1151,7 +1182,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: linear-gradient(2.6deg, #000 91%, #fff 92%);
+    background: linear-gradient(2.6deg, #000 91.5%, #fff 92%);
     margin-bottom: 0;
   }
 
@@ -1197,6 +1228,14 @@
     margin-bottom: 41px;
     color: #fff;
     text-align: center;
+  }
+
+  .catalog-item__title {
+  	padding-left: 0;
+  }
+
+  .catalog-item__description {
+  	padding-left: 0;
   }
 
   .stories-content {
@@ -1249,7 +1288,7 @@
   .stories-item__description-extended {
     width: 100%;
     display: grid;
-    grid-template-columns: 1.5fr 0.5fr 1fr;
+    grid-template-columns: 0.75fr 0.5fr 1fr;
   }
 
   .hidden-1024 {
@@ -1346,8 +1385,13 @@
     margin-left: auto;
   }
 
+  .socials {
+  	padding-right: 0;
+  	display: flex;
+  	justify-content: space-around;
+  }
   .social-icon {
-    width: 100%;
+    width: 70%;
   }
 
   .hidden-375 {
