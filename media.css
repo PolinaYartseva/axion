@@ -920,11 +920,6 @@
     grid-template-columns: 1.5fr 0.5fr 1fr;
   }
 
-  .hidden-1024 {
-    display: flex;
-    align-items: center;
-  }
-
   .stories-item__date {
     font-size: 15px;
     line-height: 14px;
@@ -1076,8 +1071,6 @@
   }
 
   .top-content__block {
-    /* width: 355px;
-    height: 169px; */
     padding-left: 20px;
   }
 
