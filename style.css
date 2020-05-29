@@ -64,7 +64,7 @@
 }
 
 .link__white {
-	color: #fff;
+  color: #fff;
 }
 
 .header__search {
@@ -146,8 +146,8 @@
 }
 
 .top-content__block-link {
-	display: flex;
-	justify-content: flex-start;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .top-content__h1 {
@@ -209,7 +209,7 @@
   width: 170px;
   height: 173px;
   margin-bottom: 18px;
-  padding-left: 21px;
+  padding-left: 0;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -479,7 +479,7 @@
 }
 
 .footer__bottom {
-  width: 100%
+  width: 100%;
 }
 
 .copyright {
