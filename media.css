@@ -476,10 +476,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: linear-gradient(2.6deg, #000 85.5%, #fff 86%);
+    background: linear-gradient(2.6deg, #000 90.5%, #fff 91%);
     margin-bottom: 0;
     padding-bottom: 104px;
-    padding-top: 100px;
+    padding-top: 80px;
   }
 
   .video-section__image {
