@@ -162,8 +162,12 @@
 
 .arrow {
   padding-left: 7px;
-  display: flex;
-  align-items: center;
+  width: 45px;
+  display: inline-block;
+}
+
+.arrow-black {
+	width: 25px;
 }
 
 /* catalog */
