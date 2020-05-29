@@ -173,8 +173,7 @@
 /* catalog */
 
 .catalog {
-  margin-bottom: 52px;
-  margin: 0 auto;
+  margin: 0 auto 52px auto;
 }
 
 .catalog__title {
